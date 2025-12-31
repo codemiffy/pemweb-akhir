@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
-
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/detail_berita.css' %}">
 {% block content %}
 <div class="container my-5">
     <div class="row justify-content-center">
@@ -10,7 +11,7 @@
             {% if berita.gambar %}
             <img src="{{ berita.gambar.url }}" class="img-fluid rounded mb-4 shadow w-100">
             {% endif %}
-            <div class="lh-lg" style="text-align: justify;">
+            <div class="lh-lg justify-text">
                 {{ berita.isi|linebreaks }}
             </div>
             <div class="mt-5">

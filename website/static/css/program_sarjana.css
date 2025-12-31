@@ -1,0 +1,50 @@
+.program-hero {
+    background: linear-gradient(135deg, #004a99 0%, #0066cc 100%);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+.program-hero h1 { font-size: 2.5rem; font-weight: bold; }
+.program-hero .tagline { font-size: 1.3rem; font-weight: 300; opacity: 0.95; }
+
+.program-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
+.program-info-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #004a99;
+}
+.program-info-box .label { font-weight: 600; color: #004a99; font-size: 0.9rem; text-transform: uppercase; }
+.program-info-box .value { font-size: 1.1rem; font-weight: 500; margin-top: 8px; }
+
+.section-title { color: #004a99; font-weight: bold; margin-top: 40px; margin-bottom: 20px; border-bottom: 3px solid #ffcc00; padding-bottom: 10px; }
+
+.benefit-card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.benefit-card h5 { color: #004a99; font-weight: 600; }
+
+.curriculum-table {
+    margin: 20px 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+.curriculum-table th {
+    background-color: #004a99;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+.curriculum-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
